@@ -55,6 +55,7 @@ components:
         memory: 512Mi
     instances:
       dev: {}
+      staging: {}
     expose:
       host: taskboard11-api
     uses:
@@ -86,6 +87,7 @@ components:
         memory: 512Mi
     instances:
       dev: {}
+      staging: {}
     expose:
       host: taskboard11-web
 resources:
